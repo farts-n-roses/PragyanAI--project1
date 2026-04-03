@@ -39,7 +39,7 @@ page = st.sidebar.radio("Go to", [
     "Funnel Analysis",
     "Feature Impact",
     "Failure Analysis",
-    "Insights",
+    "Key Insights",
     "Interactive 'What-If' Simulator"
 ])
 

@@ -28,7 +28,7 @@ df_encoded["Failed_Stage"] = df_encoded["Failed_Stage"].map({
 numeric_df = df_encoded.select_dtypes(include="number")
 corr = numeric_df.corr(method="spearman")
 
-st.title("📊 Hiring Funnel Analytics Dashboard")
+st.title("Hiring Funnel Analytics Dashboard")
 
 # -----------------------------
 # SIDEBAR
@@ -167,9 +167,9 @@ elif page == "Failure Analysis":
     """)
 
 # =============================
-# INSIGHTS
+# KEY INSIGHTS
 # =============================
-elif page == "Insights":
+elif page == "Key Insights":
     st.header("💡 Key Insights")
 
     st.markdown("""
@@ -216,6 +216,3 @@ elif page == "Interactive 'What-If' Simulator":
     
 
 # -----------------------------------------------------------------------------------------------------------------------------------
-
-
-
